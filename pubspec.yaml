@@ -1,8 +1,6 @@
 name: flutter_facebook_signin
 description: A new Flutter project.
 version: 0.0.1
-author:
-homepage:
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -10,7 +8,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  auth_provider:
+    git:
+      url: git@gitlab.com:milind.mevada/dart_auth_provider.git
+  flutter_facebook_login: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
