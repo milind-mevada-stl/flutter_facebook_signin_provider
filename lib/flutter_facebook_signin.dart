@@ -4,6 +4,7 @@ import 'package:auth_provider/abstract_auth_provider.dart';
 import 'package:auth_provider/auth_provider.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+import 'package:http/http.dart';
 
 import 'facebook_sign_in_provider_impl.dart';
 
@@ -18,6 +19,7 @@ AuthProvider facebookSignInProvider({
     facebookLogin: FacebookLogin(),
     sessionStorage: sessionStorage ?? defaultSessionStorage,
     scope: scopes,
+    httpClient: Client(),
   );
   return authProvider;
 }

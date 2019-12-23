@@ -12,6 +12,7 @@ dependencies:
     git:
       url: git@gitlab.com:milind.mevada/dart_auth_provider.git
   flutter_facebook_login: ^3.0.0
+  http: ^0.12.0+2
 dev_dependencies:
   flutter_test:
     sdk: flutter
