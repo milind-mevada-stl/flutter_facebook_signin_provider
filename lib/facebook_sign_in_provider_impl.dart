@@ -78,6 +78,11 @@ class FacebookSignInProvider implements AuthProvider {
     );
     return jsonDecode(graphResponse.body);
   }
+
+  @override
+  Future<Map<String, dynamic>> signUp({Map<String, dynamic> data}) {
+    throw UnimplementedError();
+  }
 }
 
 class FacebookSignInCancelledException implements Exception {}
