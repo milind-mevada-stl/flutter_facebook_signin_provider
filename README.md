@@ -14,7 +14,7 @@ The package is responsible for the Facebook-Sign in and caching the session data
 ```
 flutter_facebook_signin:
     git:
-      url: git@gitlab.com:milind.mevada/flutter_facebook_signin_provider.git
+      url: git@github.com:solutelabs/flutter_facebook_signin_provider.git
 ``` 
 
 **Step 2:** Integrate Facebook-Sign in for Android and iOS. [Reference](https://pub.dev/packages/flutter_facebook_login)
