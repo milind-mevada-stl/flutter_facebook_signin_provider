@@ -1,14 +1,29 @@
-# flutter_facebook_signin
+# Facebook Sign-in Provider
 
-A new Flutter project.
+An Implementation of Facebook sign-in based on dart Auth provider.
 
-## Getting Started
+##Introduction
+This packages is intended to easily integrate Facebook sign-in in Flutter based Application.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+The package is responsible for the Facebook-Sign in and caching the session data. We can also provide a custom implementation of caching session data.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+
+##Installation
+**Step 1:** Add this package as a dependency in `pubspec.yaml` file.
+
+```
+flutter_facebook_signin:
+    git:
+      url: git@gitlab.com:milind.mevada/flutter_facebook_signin_provider.git
+``` 
+
+**Step 2:** Integrate Facebook-Sign in for Android and iOS. [Reference](https://pub.dev/packages/flutter_facebook_login)
+
+##Usage
+```
+import 'package:flutter_facebook_signin/flutter_facebook_signin.dart';
+
+...
+
+await facebookSignInProvider(scopes: ['email']).signIn();
+```
