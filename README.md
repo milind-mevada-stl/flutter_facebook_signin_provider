@@ -1,6 +1,6 @@
 # Facebook Sign-in Provider
 
-An Implementation of Facebook sign-in based on dart Auth provider.
+An Implementation of Facebook sign-in based on [dart Auth provider](https://github.com/solutelabs/dart_auth_provider).
 
 ## Introduction
 This packages is intended to easily integrate Facebook sign-in in Flutter based Application.
